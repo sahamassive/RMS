@@ -1,0 +1,65 @@
+.background{
+    background-color: #404040;
+    border-radius: 8px;
+    padding: 1px;
+    text-align:left;
+    margin-top: 10px;
+}
+.image{
+    width: 35%;
+    border-radius: 10px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.lavel_01{
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #2E75B6;
+
+}
+.mail{
+    text-align: center;
+    color: white;
+    margin: .5rem;
+    border-radius: 10px;
+
+    background-color: #595959;
+}
+.icon{
+    margin-right: 10px;
+}
+.btn-style3{
+    color: white;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman';
+    background-color: #7F6000;
+    margin:2px;
+}
+.btn-background{
+    background-color: #404040;
+    border-radius: 8px;
+    padding: 1px;
+    text-align:left;
+    margin-top: 15px;
+    margin-left: 1.5rem;
+}
+.activity{
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #595959;
+}
+.level2{
+    color: white;
+    padding-left: 2rem;
+}
