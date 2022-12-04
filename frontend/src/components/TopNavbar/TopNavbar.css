@@ -1,0 +1,45 @@
+.top_nav{
+    background-color: #404040;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    display: flex;
+  }
+  .search_box{
+    background-color: #262626;
+    border-radius: 7px;
+    font-style: italic;
+    width: 350px;
+    height: fixed;
+  }
+  
+  .bg_01{
+    background-color: #3B3838;
+    padding: 7px;
+    border-radius: 7px;
+    margin-left: 6px;
+  }
+  .name_01{
+    font-family: 'Edwardian Script ITC';
+    font-style: italic;
+    color: rgba(230, 224, 224, 0.658);
+    background-color: #404040;
+    padding-right: 1rem;
+    padding-left:  1rem;
+  }
+  .profile{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 150px;
+  }
+  .section_02{
+    background-color: #404040;
+    position: absolute;
+    right: 1.5rem;
+  }
+  .section_03{
+    background-color: #404040;
+    position: absolute;
+    right: 11rem;
+  }

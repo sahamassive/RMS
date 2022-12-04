@@ -1,0 +1,43 @@
+.left_navigation{
+    background-color: #0D0D0D;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  .logo{
+    width: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .company_name{
+    font-size:20px;
+    color:yellow;
+    font-family:'Gill Sans';
+    text-align: center;
+  }
+  .nav_bg{
+    background-color:#0D0D0D ;
+  }
+  .nav_buttons{
+    border:1px solid #2B2B2B;
+    border-radius: 6px;
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    padding-left: 20px;
+    font-family: 'Times New Roman';
+    color:white
+  }
+  .res{
+    color: red;
+    background-color:#0D0D0D;
+    font-style: italic;
+    font-family: 'Monotype Corsiva'; 
+    font-size: 25px;
+  }
+  .icon{
+    margin-right: 15px;
+  }
