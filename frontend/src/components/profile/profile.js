@@ -1,7 +1,6 @@
 import profile from '../../asset/image/profile/profile.jpg';
 import React from 'react';
 import './profile.css';
-import Button from 'react-bootstrap/Button';
 
 function Profile() {
     return (

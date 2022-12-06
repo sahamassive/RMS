@@ -1,11 +1,11 @@
 .left_navigation{
     background-color: #0D0D0D;
-    padding-bottom: 20px;
     border-radius: 10px;
     text-align: left;
+    min-height: 100vh;
   }
   .logo{
-    width: 50px;
+    width: 3em;
     margin-top: 10px;
     padding-top: 10px;
     display: block;
@@ -13,21 +13,25 @@
     margin-right: auto;
   }
   .company_name{
-    font-size:20px;
+    font-size:1.3em;
     color:yellow;
     font-family:'Gill Sans';
     text-align: center;
   }
   .nav_bg{
     background-color:#0D0D0D ;
+    border-radius: 10px;
   }
   .nav_buttons{
-    border:1px solid #2B2B2B;
-    border-radius: 6px;
-    width: 80%;
+    border:1px solid #242222;
+    border-radius:5px;
     margin-left:10%;
     margin-right:10%;
-    padding-left: 20px;
+    width:80%;
+    text-align: left;
+    padding-left: 2em;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
     font-family: 'Times New Roman';
     color:white
   }
@@ -36,8 +40,97 @@
     background-color:#0D0D0D;
     font-style: italic;
     font-family: 'Monotype Corsiva'; 
-    font-size: 25px;
   }
   .icon{
-    margin-right: 15px;
+    margin-right: 1rem;
   }
+
+  .header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    margin-top: 12vh;
+ }
+  .footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 15vh;
+ }
+  .button-container-1 {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    overflow: hidden;
+    border: 1px solid;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border-radius: 8px;
+ }
+  .button-container-1 button {
+    width: 101%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #000;
+    -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    -webkit-mask-size: 2300% 100%;
+    mask-size: 2300% 100%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-animation: ani2 0.7s steps(22) forwards;
+    animation: ani2 0.7s steps(22) forwards;
+ }
+  .button-container-1 button:hover {
+    -webkit-animation: ani 0.7s steps(22) forwards;
+    animation: ani 0.7s steps(22) forwards;
+ }
+  .mas {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    width: 101%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    font-size: 11px;
+    margin-top: 17px;
+    overflow: hidden;
+    font-weight: bold;
+ }
+  @-webkit-keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+   }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+   }
+ }
+  @keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+   }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+   }
+ }
+  a {
+    color: #00ff95;
+ }
+  

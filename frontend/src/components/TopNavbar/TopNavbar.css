@@ -1,22 +1,22 @@
 .top_nav{
     background-color: #404040;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 15px;
-    border-radius: 10px;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    border-radius: 7px;
     display: flex;
   }
   .search_box{
     background-color: #262626;
     border-radius: 7px;
     font-style: italic;
-    width: 350px;
+    width: 20rem;
     height: fixed;
   }
   
   .bg_01{
     background-color: #3B3838;
-    padding: 7px;
+    padding: .5rem;
     border-radius: 7px;
     margin-left: 6px;
   }
@@ -33,13 +33,11 @@
     width: 2rem;
     border-radius: 150px;
   }
-  .section_02{
-    background-color: #404040;
-    position: absolute;
-    right: 1.5rem;
-  }
   .section_03{
+    display:flex;
+    margin-left: auto; 
+    margin-right: 1rem;
+  }
+  .top_nav_bg{
     background-color: #404040;
-    position: absolute;
-    right: 11rem;
   }
