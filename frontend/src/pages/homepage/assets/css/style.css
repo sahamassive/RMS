@@ -1,13 +1,4 @@
-/**
-* Template Name: Restaurantly - v3.7.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   background: #0c0b09;
@@ -1511,4 +1502,35 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.res{
+  color: red;
+  background-color:#0D0D0D;
+  font-style: italic;
+  font-family: 'Monotype Corsiva'; 
+  font-size: 1.5rem;
+}
+.company_name{
+  font-size:1.3em;
+  color:yellow;
+  font-family:'Gill Sans';
+  text-align: center;
+  font-size: 1.5rem;
+}
+.dis{
+  display: flex;
+}
+*{
+color:white
+}
+.writing-style{
+  text-align: left;
+}
+.map-style{
+  border:0; 
+  width: 83%; 
+  height: 350px;
+}
+.image-size{
+  height: 15rem;
 }

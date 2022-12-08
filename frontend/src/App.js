@@ -5,7 +5,7 @@ import ProfileInfo from './pages/admin/profileInfo';
 import FoodSection from './pages/food/section/Section';
 import FoodCategory from './pages/food/category/FoodCategory';
 import Food from './pages/food/foodItem/Food';
-import HomePage from './pages/homepage/Index.js';
+import HomePage from './pages/homepage/Index';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
